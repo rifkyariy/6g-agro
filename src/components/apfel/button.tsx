@@ -1,5 +1,5 @@
 import { ComponentInternals, Container, ContainerProperties, DefaultProperties } from '@react-three/uikit'
-import React, { ReactNode, RefAttributes, forwardRef } from 'react'
+import { ReactNode, RefAttributes, forwardRef } from 'react'
 import { colors } from './theme.js'
 
 function getAribtrarySize(size: number) {

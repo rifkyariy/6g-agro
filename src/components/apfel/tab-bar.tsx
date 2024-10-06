@@ -1,5 +1,5 @@
 import { ComponentInternals, Container, ContainerProperties, DefaultProperties } from '@react-three/uikit'
-import React, {
+import {
   ReactNode,
   RefAttributes,
   SetStateAction,
@@ -63,7 +63,7 @@ export const TabBar: (props: TabBarProperties & RefAttributes<ComponentInternals
           gapRow={8}
           onHoverChange={(hovered) => {
             if (hovered) {
-              timeoutRef.current = setTimeout(() => setIsExpanded(true), 300) as any
+              timeoutRef.current = setTimeout(() => setIsExpanded(true), 300)
             } else {
               clearTimeout(timeoutRef.current)
               setIsExpanded(false)

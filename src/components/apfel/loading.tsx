@@ -1,6 +1,6 @@
 import { ComponentInternals, Container, ContainerProperties } from '@react-three/uikit'
 import { useFrame } from '@react-three/fiber'
-import React, { ReactNode, RefAttributes, forwardRef, useMemo } from 'react'
+import { ReactNode, RefAttributes, forwardRef, useMemo } from 'react'
 import { signal } from '@preact/signals-core'
 import { colors } from './theme.js'
 

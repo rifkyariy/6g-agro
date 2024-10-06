@@ -1,5 +1,5 @@
 import { ComponentInternals, Container, ContainerProperties, DefaultProperties } from '@react-three/uikit'
-import React, {
+import {
   ReactNode,
   RefAttributes,
   createContext,

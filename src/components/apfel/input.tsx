@@ -9,7 +9,7 @@ import {
   InputProperties as BaseInputProperties,
   ComponentInternals,
 } from '@react-three/uikit'
-import React, { ReactNode, RefAttributes, forwardRef, useMemo, useState } from 'react'
+import { ReactNode, RefAttributes, forwardRef, useMemo, useState } from 'react'
 
 type Variant = 'pill' | 'rect'
 export type InputProperties = BaseInputProperties & { placeholder?: string; variant?: Variant; prefix?: ReactNode }

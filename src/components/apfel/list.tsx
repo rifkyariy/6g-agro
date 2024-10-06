@@ -1,5 +1,5 @@
 import { ComponentInternals, Container, ContainerProperties, DefaultProperties } from '@react-three/uikit'
-import React, { ReactNode, RefAttributes, createContext, forwardRef, useContext } from 'react'
+import { ReactNode, RefAttributes, createContext, forwardRef, useContext } from 'react'
 import { colors } from './theme.js'
 
 type Type = 'plain' | 'inset'
@@ -51,8 +51,8 @@ export const ListItem: (props: ListItemProperties & RefAttributes<ComponentInter
         active={
           type === 'plain'
             ? {
-                backgroundOpacity: 0.3,
-              }
+              backgroundOpacity: 0.3,
+            }
             : undefined
         }
         cursor="pointer"

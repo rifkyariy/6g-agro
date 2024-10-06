@@ -1,6 +1,6 @@
 import { ComponentInternals, Container, ContainerProperties } from '@react-three/uikit'
 import { Check } from '@react-three/uikit-lucide'
-import React, { ReactNode, RefAttributes, forwardRef, useState } from 'react'
+import { ReactNode, RefAttributes, forwardRef, useState } from 'react'
 import { colors } from './theme.js'
 
 type CheckboxProperties = ContainerProperties & {
@@ -28,10 +28,10 @@ export const Checkbox: (props: CheckboxProperties & RefAttributes<ComponentInter
           disabled
             ? undefined
             : {
-                backgroundOpacity: value ? 1 : 0.3,
-                backgroundColor: value ? colors.accent : colors.foreground,
-                borderColor: value ? colors.accent : colors.foreground,
-              }
+              backgroundOpacity: value ? 1 : 0.3,
+              backgroundColor: value ? colors.accent : colors.foreground,
+              borderColor: value ? colors.accent : colors.foreground,
+            }
         }
         borderOpacity={0}
         justifyContent="center"

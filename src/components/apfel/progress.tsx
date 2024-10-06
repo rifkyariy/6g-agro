@@ -1,5 +1,5 @@
 import { ComponentInternals, Container, ContainerProperties } from '@react-three/uikit'
-import React, { ReactNode, RefAttributes, forwardRef } from 'react'
+import { ReactNode, RefAttributes, forwardRef } from 'react'
 import { colors } from './theme.js'
 
 export type ProgressProperties = ContainerProperties & {
