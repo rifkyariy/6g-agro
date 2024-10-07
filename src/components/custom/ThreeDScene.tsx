@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useState } from 'react'
-// import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom'
 import { Canvas, extend, useFrame } from '@react-three/fiber'
 import ThreeMeshUI from 'three-mesh-ui'
 import { OrbitControls } from '@react-three/drei'
@@ -50,23 +50,11 @@ function Panel() {
   )
 }
 
-export default function App() {
-  return (
-    <Canvas camera={{ position: [0, 0, 1] }}>
-      <color args={["#eee"]} attach="background" />
-      <OrbitControls />
-      <Panel />
-    </Canvas>
-  )
-}
-
-
-
-// ReactDOM.render(
-//   <Canvas camera={{ position: [0, 0, 1] }}>
-//     <color args={["#eee"]} attach="background" />
-//     <OrbitControls />
-//     <Panel />
-//   </Canvas>,
-//   document.getElementById('root')
-// )
+ReactDOM.render(
+  <Canvas camera={{ position: [0, 0, 1] }}>
+    <color args={["#eee"]} attach="background" />
+    <OrbitControls />
+    <Panel />
+  </Canvas>,
+  document.getElementById('root')
+)
