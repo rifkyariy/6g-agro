@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.0",
     "@react-three/drei": "^9.114.2",
     "@react-three/fiber": "^8.17.9",
     "@react-three/uikit": "^0.6.2",
     "@react-three/uikit-apfel": "^0.6.2",
+    "@react-three/xr": "^6.2.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.169.0",
